@@ -1,0 +1,79 @@
+CompA
+	CompB
+
+
+
+How we can load these component with URL pattern?
+
+URL = Uniform Resource Location
+
+http://localhost:3000
+
+We have to introduce what is called
+
+Routes
+
+http://localhost:3000/routes
+
+Base Address
+http://localhost:3000
+
+Base Address/Routes
+Base Address/someRouteName
+
+
+http://localhost:3000
+
+For example we have to create 
+2 Pages
+1. Login
+2. Register
+
+http://localhost:3000/login ---> Login.js
+http://localhost:3000/regsiter ---> Register.js
+
+react-router-dom is a 3rd party library
+
+In order to download any 3rd party libary in nodejs
+
+nodejs -> npm (node package manager)
+
+
+http://localhost:3000/
+BaseAddress/ -> Home.js
+BaseAddress/login -> Login.js
+BaseAddress/register -> Register.js
+
+Every nodejs 3rd party library are download from https://www.npmjs.com/
+
+npm install <libraryName> --save
+
+react-router-dom 6.8.1
+
+someLibrary  Major.Minor.Patch
+
+
+https://react-bootstrap.github.io/
+
+npm install lib1 lib2 lib3 lib4 .....
+
+npm install react-bootstrap bootstrap
+
+
+pages/A.js	
+pages/B.js
+pages/C.js
+.
+.
+.
+
+pages/Z.js
+
+
+You have to create A - Z route
+
+
+localhost:3000/A       -> pages/A.js
+localhost:3000/Bhanu   -> pages/B.js
+localhost:3000/Chandu  -> pages/C.js
+localhost:3000/D       -> pages/D.js
